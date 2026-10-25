@@ -18,18 +18,24 @@ Dependencies
 •	IPython
 
 Installing
+
 •	Download or clone the repository from GitHub:
 git clone https://github.com/kalaiavk1516-create/Data_Analytics_final_project.git
 •	Navigate to the project folder:
 cd Data_Analytics_final_project
 •	Install the required Python libraries:
 pip install pandas numpy matplotlib ipython
+
+
 Executing program
+
+
 •	Open the notebook in Google Colab or Jupyter Notebook.
 •	Load the dataset.
 •	Clean and preprocess the data.
 •	Perform exploratory data analysis.
 •	Generate visualizations and insights.
+
 import pandas as pd
 
 df = pd.read_csv(
@@ -37,16 +43,25 @@ df = pd.read_csv(
 )
 
 display(df.head())
+
+
 Help
+
 Common Issues:
+
 •	Ensure the dataset path is correct.
 •	Verify all required libraries are installed.
 •	Check internet connectivity when loading the dataset from GitHub.
+
 pip install pandas numpy matplotlib
 Authors
+
 Kalaivani Valampuri
 GitHub Profile: @kalaiavk1516-create
+
+
 Version History
+
 •	0.1
 o	Initial Release
 o	Data Cleaning and Preprocessing
@@ -54,8 +69,13 @@ o	Missing Value Handling
 o	Descriptive Statistical Analysis
 o	Population Group-wise Deposit Analysis
 o	Data Visualization using Matplotlib
+
+
 License
+
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+
 Acknowledgments
 •	Dataset sourced from Indian Banking Deposit Statistics
 •	Python Documentation
